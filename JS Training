@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript</title>
+        
+        <!-- 2% <script type="text/javascript">
+            function message() {
+            alert("This alert box was called with the onload event");
+            }
+        </script> -->
+
+        <!-- 3% <script type="text/javascript">
+            function disp_alert() {
+            alert("Figyelmeztető ablak!")
+            }
+        </script> -->
+
+        <!-- 4% <script type="text/javascript">
+            function disp_confirm() {
+            if (confirm("Kérdés")) {
+            document.write("CSÖCSFASZ")
+            } else {
+            document.write("Mégse")
+            }
+            }
+        </script> -->
+
+        <!-- 5% <script type="text/javascript">
+            function disp_prompt() {
+            var name=prompt("Add meg a neved","Névtelen")
+            if (name!=null && name!=""){
+            document.write("Szia " + name + "!")
+            }
+            }
+        </script> -->
+
+        <!-- 6% <script type="text/javascript">
+            function ChangeColor() {
+            document.body.bgColor="yellow"
+            }
+        </script> -->
+
+    </head>
+    <body>
+        
+        <!-- 1% <script type="text/javascript">
+        document.write("Hello Világ!")
+        </script> -->
+        
+        <!-- 2% <body onload="message()"></body> -->
+
+        <!-- 2B% Ha a message függvény kódját egy message.js állományban helyeztük volna,
+        akkor a head részbe a következő kód lenne szükséges:
+        <script type="text/javascript" src="message.js"></script> -->
+
+        <!-- 3% <form>
+            <input type="button" onclick="disp_alert()" value="Gomb">
+        </form> -->
+
+        <!-- 4% <form>
+            <input type="button" onclick="disp_confirm()" value="Gomb">
+        </form> -->
+
+        <!-- 5% <form>
+            <input type="button" onclick="disp_prompt()" value="Gomb">
+        </form> -->
+
+        <!-- 6% <body onclick="ChangeColor()">
+            Klikkeljen az oldalon! -->
+
+    </body>
+</html>
